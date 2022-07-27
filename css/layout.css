@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+.float{
+    float: left;
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+
+.header_logo{
+    width: 20%;
+    height: 100%;
+    margin-right: 5px;
+    border: 2px solid black;
+}
+.header_banner{
+    width: calc(80% - 5px);
+    height: 100%;
+    border: 2px solid black;
+}
+
+.nav{
+    margin-top: 5px;
+    height: 50px;
+    border: 2px solid black;
+}
+.main{
+
+    margin-top: 5px;
+}
+
+.left{
+    height: 500px;
+    width: 20%;
+    margin-right: 5px;
+}
+.left_top{
+    width: 100%;
+    height: 50%;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.left_bottom{
+    width: 100%;
+    height: calc(50% - 5px);
+    border: 2px solid black;
+}
+
+.content{
+    height: 500px;
+    width: calc(55% - 5px);
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.content_top{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 5px;
+}
+
+.content_top_left{
+    width: 50%;
+    height: 100%;
+    border: 2px solid black;
+    
+    margin-right: 5px;
+}
+
+.content_top_right{
+    width: calc(50% - 5px);
+    height: 100%;
+    border: 2px solid black;
+}
+
+.content_bottom{
+    width: 100%;
+    height: calc(70% - 5px);
+    /* border: 2px solid black; */
+}
+
+.content_bottom_item{
+    border: 2px solid black;
+    width: calc(33.33% - 20px);
+    height: 44%;
+    float: left;
+    margin: 10px;
+}
+
+.right{
+    height: 500px;
+    width: calc(25% - 5px);
+    border: 2px solid black;
+}
+
+
+.footer{
+    height: 50px;
+    border: 2px solid black;
+    clear: both;
+}
